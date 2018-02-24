@@ -1,15 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 using System.Security;
 
-namespace TPLab2
+namespace Lab2
 {
-	internal static class OLE
+	static class OLE
 	{
 		public static Guid CLASS_WEBBROWSER = Guid.Parse("8856F961-340A-11D0-A96B-00C04FD705A2");
 		public static Guid IID_IWebBrowserApp = Guid.Parse("0002DF05-0000-0000-C000-000000000046");
@@ -681,7 +677,7 @@ InterfaceTypeAttribute(ComInterfaceType.InterfaceIsIUnknown)]
 		READYSTATE_COMPLETE = 4
 	}
 
-	public enum OLEDOVERB : int
+	public enum OLEDOVERB
 	{
 		OLEIVERB_DISCARDUNDOSTATE = -6,
 		OLEIVERB_HIDE = -3,

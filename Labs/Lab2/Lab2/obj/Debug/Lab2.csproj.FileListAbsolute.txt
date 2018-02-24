@@ -1,0 +1,9 @@
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\obj\Debug\Lab2.csprojResolveAssemblyReference.cache
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\bin\Debug\Lab2.exe.config
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\bin\Debug\Lab2.exe
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\bin\Debug\Lab2.pdb
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\obj\Debug\Lab2.exe
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\obj\Debug\Lab2.pdb

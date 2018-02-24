@@ -1,0 +1,10 @@
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab6\Lab6\bin\Debug\Lab6.exe.config
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab6\Lab6\bin\Debug\Lab6.exe
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab6\Lab6\bin\Debug\Lab6.pdb
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab6\Lab6\obj\Debug\Lab6.Properties.Resources.resources
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab6\Lab6\obj\Debug\Lab6.csproj.GenerateResource.Cache
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab6\Lab6\obj\Debug\Lab6.csproj.CoreCompileInputs.cache
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab6\Lab6\obj\Debug\Lab6.exe
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab6\Lab6\obj\Debug\Lab6.pdb
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab6\Lab6\obj\Debug\Lab6.csprojResolveAssemblyReference.cache
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab6\Lab6\obj\Debug\Lab6.MainWindow.resources
