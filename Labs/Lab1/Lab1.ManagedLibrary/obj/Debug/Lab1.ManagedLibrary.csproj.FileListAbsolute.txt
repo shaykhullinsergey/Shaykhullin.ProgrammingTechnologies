@@ -1,0 +1,6 @@
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1.ManagedLibrary\bin\Debug\Lab1.ManagedLibrary.dll
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1.ManagedLibrary\bin\Debug\Lab1.ManagedLibrary.pdb
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1.ManagedLibrary\obj\Debug\Lab1.ManagedLibrary.csprojResolveAssemblyReference.cache
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1.ManagedLibrary\obj\Debug\Lab1.ManagedLibrary.csproj.CoreCompileInputs.cache
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1.ManagedLibrary\obj\Debug\Lab1.ManagedLibrary.dll
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1.ManagedLibrary\obj\Debug\Lab1.ManagedLibrary.pdb

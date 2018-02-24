@@ -1,0 +1,5 @@
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1\bin\Debug\Lab1.DynamicManagedLibrary.dll
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1\bin\Debug\Lab1.DynamicManagedLibrary.pdb
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1.DynamicManagedLibrary\obj\Debug\Lab1.DynamicManagedLibrary.csproj.CoreCompileInputs.cache
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1.DynamicManagedLibrary\obj\Debug\Lab1.DynamicManagedLibrary.dll
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1.DynamicManagedLibrary\obj\Debug\Lab1.DynamicManagedLibrary.pdb

@@ -1,0 +1,12 @@
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1\bin\Debug\Lab1.exe.config
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1\bin\Debug\Lab1.pdb
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1\bin\Debug\Lab1.ManagedLibrary.dll
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1\bin\Debug\Lab1.ManagedLibrary.pdb
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1\obj\Debug\Lab1.MainWindow.resources
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.Cache
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1\obj\Debug\Lab1.exe
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab1\Lab1\obj\Debug\Lab1.pdb
