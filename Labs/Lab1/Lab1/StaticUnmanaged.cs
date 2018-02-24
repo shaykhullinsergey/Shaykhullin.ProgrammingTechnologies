@@ -2,7 +2,6 @@
 
 namespace Lab1
 {
-
 	static class StaticUnmanaged
 	{
 		[DllImport("unmlib1.dll", CallingConvention = CallingConvention.StdCall)]

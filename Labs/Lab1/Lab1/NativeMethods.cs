@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace Lab1
 {
-	static class NativeMethods
+	static class DynamicUnmanaged
 	{
 		[UnmanagedFunctionPointer(CallingConvention.StdCall)]
 		private delegate void Func6Delegate([MarshalAs(UnmanagedType.BStr)]out string data);
