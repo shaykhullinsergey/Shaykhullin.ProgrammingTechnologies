@@ -62,7 +62,6 @@
 			this.Controls.Add(this.groupBox1);
 			this.Name = "MainWindow";
 			this.Text = "Form1";
-			this.Load += new System.EventHandler(this.MainWindow_Load);
 			this.groupBox1.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).EndInit();
 			this.ResumeLayout(false);

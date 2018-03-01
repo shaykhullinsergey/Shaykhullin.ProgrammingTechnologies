@@ -7,9 +7,9 @@ C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\bin\Debug\Lab2.exe
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\bin\Debug\Lab2.pdb
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\obj\Debug\Lab2.exe
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\obj\Debug\Lab2.pdb
-C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\obj\Debug\Lab2.MainWindow.resources
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\bin\Debug\Interop.ShockwaveFlashObjects.dll
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\obj\Debug\Interop.ShockwaveFlashObjects.dll
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\obj\Debug\Lab2.csproj.ResolveComReference.cache
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab2\Lab2\obj\Debug\Lab2.MainWindow.resources
