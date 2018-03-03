@@ -1,0 +1,5 @@
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\RusherNetLib\bin\Debug\RusherNetLib.dll
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\RusherNetLib\bin\Debug\RusherNetLib.pdb
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\RusherNetLib\obj\Debug\RusherNetLib.csproj.CoreCompileInputs.cache
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\RusherNetLib\obj\Debug\RusherNetLib.dll
+C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\RusherNetLib\obj\Debug\RusherNetLib.pdb

@@ -20,6 +20,12 @@ namespace Lab3
 
 		private void OnGenerate(object sender, EventArgs e)
 		{
+			if(string.IsNullOrWhiteSpace(textBox1.Text))
+			{
+				MessageBox.Show("Empty string!");
+				return;
+			}
+
 			var type = AppDomain.CurrentDomain.GetAssemblies()
 				.Select(x => x.GetType(textBox1.Text))
 				.FirstOrDefault(x => x != null);
