@@ -1,0 +1,15 @@
+export PART
+SOURCE=src/$(PART)
+BIN=bin/$(PART)
+
+all: nasm ld rm
+
+nasm:
+	nasm -f elf $(SOURCE).asm -o $(BIN).o
+
+LINKER=-dynamic-linker /lib/ld-linux.so.2 -lc
+ld:
+	ld $(BIN).o -o $(BIN) -e main -melf_i386 $(LINKER)
+
+rm:
+	rm $(BIN).o
