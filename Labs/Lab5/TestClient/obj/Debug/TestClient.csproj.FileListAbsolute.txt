@@ -2,7 +2,6 @@ C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestClient\bin\Debug\Tes
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestClient\bin\Debug\TestClient.exe
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestClient\bin\Debug\TestClient.pdb
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestClient\bin\Debug\RusherNetLib.dll
-C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestClient\bin\Debug\RusherNetLib.pdb
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestClient\obj\Debug\TestClient.csprojResolveAssemblyReference.cache
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestClient\obj\Debug\TestClient.MainWindow.resources
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestClient\obj\Debug\TestClient.Properties.Resources.resources

@@ -37,6 +37,9 @@
     <StartupObject>TestServer.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="RusherNetLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\RusherNetLib.1.0.0\lib\net471\RusherNetLib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,12 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RusherNetLib\RusherNetLib.csproj">
-      <Project>{c1cbb430-ce94-4f08-bd5d-7c37f80de237}</Project>
-      <Name>RusherNetLib</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

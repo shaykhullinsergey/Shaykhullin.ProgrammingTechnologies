@@ -2,7 +2,6 @@ C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestServer\bin\Debug\Tes
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestServer\bin\Debug\TestServer.exe
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestServer\bin\Debug\TestServer.pdb
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestServer\bin\Debug\RusherNetLib.dll
-C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestServer\bin\Debug\RusherNetLib.pdb
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestServer\obj\Debug\TestServer.csprojResolveAssemblyReference.cache
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestServer\obj\Debug\TestServer.csproj.CoreCompileInputs.cache
 C:\Github\Shaykhullin.ProgrammingTechnologies\Labs\Lab5\TestServer\obj\Debug\TestServer.exe

@@ -1,14 +1,12 @@
-﻿using RusherNetLib.Core;
-using RusherNetLib.NetClient;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+
+using RusherNetLib.Core;
+using RusherNetLib.NetClient;
 
 namespace TestClient
 {
@@ -29,7 +27,7 @@ namespace TestClient
 
 		private void OnDisconnected(IConnection conn, IMessage msg)
 		{
-			MessageBox.Show("Disconnected!");
+			MessageBox.Show("Connection lost!");
 			Application.Exit();
 		}
 
@@ -98,7 +96,7 @@ namespace TestClient
 		{
 			while (true)
 			{
-				if (loop.Any())
+				while (loop.Any())
 				{
 					loop.Dequeue()();
 				}
