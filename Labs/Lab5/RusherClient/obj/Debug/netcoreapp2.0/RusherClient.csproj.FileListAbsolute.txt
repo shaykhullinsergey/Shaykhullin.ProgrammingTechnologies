@@ -1,0 +1,12 @@
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherClient/bin/Debug/netcoreapp2.0/RusherClient.deps.json
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherClient/bin/Debug/netcoreapp2.0/RusherClient.runtimeconfig.json
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherClient/bin/Debug/netcoreapp2.0/RusherClient.runtimeconfig.dev.json
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherClient/bin/Debug/netcoreapp2.0/RusherClient.dll
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherClient/bin/Debug/netcoreapp2.0/RusherClient.pdb
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherClient/bin/Debug/netcoreapp2.0/RusherNetLib.dll
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherClient/bin/Debug/netcoreapp2.0/RusherNetLib.pdb
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherClient/obj/Debug/netcoreapp2.0/RusherClient.csproj.CoreCompileInputs.cache
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherClient/obj/Debug/netcoreapp2.0/RusherClient.AssemblyInfoInputs.cache
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherClient/obj/Debug/netcoreapp2.0/RusherClient.AssemblyInfo.cs
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherClient/obj/Debug/netcoreapp2.0/RusherClient.dll
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherClient/obj/Debug/netcoreapp2.0/RusherClient.pdb

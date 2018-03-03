@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a49cf272-684b-4cf5-8121-c847b68563ea" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab5/RusherClient/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding>
+                <marker date="1520091755761" expanded="true" signature="6:86" ph="..." />
+                <marker date="1520091755761" expanded="true" signature="108:1062" ph="{...}" />
+                <marker date="1520091755761" expanded="true" signature="125:1060" ph="{...}" />
+                <marker date="1520091755761" expanded="true" signature="162:526" ph="{...}" />
+                <marker date="1520091755761" expanded="true" signature="613:658" ph="{...}" />
+                <marker date="1520091755761" expanded="true" signature="746:788" ph="{...}" />
+                <marker date="1520091755761" expanded="true" signature="876:920" ph="{...}" />
+                <marker date="1520091755761" expanded="true" signature="1009:1057" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IClient.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Core/IClient.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding>
+                <marker date="1520091091884" expanded="true" signature="27:333" ph="{...}" />
+                <marker date="1520091091884" expanded="true" signature="123:180" ph="{...}" />
+                <marker date="1520091091884" expanded="true" signature="221:331" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/NetClient/Client.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="86" column="29" lean-forward="true" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+              <folding>
+                <marker date="1520091155432" expanded="false" signature="6:64" ph="..." />
+                <marker date="1520091155432" expanded="true" signature="98:3297" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="141:3295" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="334:392" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="470:808" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="491:787" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="866:1038" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="1082:1115" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="1162:1305" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="1342:1412" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="1499:1852" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="1520:1848" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="1901:2273" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="2038:2269" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="2319:2607" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="2401:2603" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="2656:3292" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="2679:2767" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="2851:3288" ph="{...}" />
+                <marker date="1520091155432" expanded="true" signature="2910:3068" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab5/RusherServer/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+              <folding>
+                <marker date="1520091761057" expanded="true" signature="6:86" ph="..." />
+                <marker date="1520091761057" expanded="true" signature="108:1452" ph="{...}" />
+                <marker date="1520091761057" expanded="true" signature="125:1450" ph="{...}" />
+                <marker date="1520091761057" expanded="true" signature="162:610" ph="{...}" />
+                <marker date="1520091761057" expanded="true" signature="701:744" ph="{...}" />
+                <marker date="1520091761057" expanded="true" signature="840:884" ph="{...}" />
+                <marker date="1520091761057" expanded="true" signature="979:1021" ph="{...}" />
+                <marker date="1520091761057" expanded="true" signature="1117:1161" ph="{...}" />
+                <marker date="1520091761057" expanded="true" signature="1263:1311" ph="{...}" />
+                <marker date="1520091761057" expanded="true" signature="1404:1447" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E1B27A4-6035-47D9-A041-CEF439F84C41/95/d9a09bd4/ExecutionContext.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Core/IPeer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Core/IBuffer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Core/IClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E1B27A4-6035-47D9-A041-CEF439F84C41/c0/d3b6ae28/QueueUserWorkItemCallbackDefaultContext.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Core/IServer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Core/IMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/RusherClient/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Core/IConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E1B27A4-6035-47D9-A041-CEF439F84C41/36/3f33da7f/ThreadPoolWorkQueue.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Lab5/RusherNetLib/NetClient/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab3/Lab3/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/RusherNetLib/NetClient/BaseClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E1B27A4-6035-47D9-A041-CEF439F84C41/0a/a65d0ce7/_ThreadPoolWaitCallback.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Lab5/RusherNetLib/NetServer/Server.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/RusherNetLib/NetServer/BaseServer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/RusherNetLib/NetServer/Connection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Message.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/RusherServer/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0238233-0FBB-446D-AF9B-F329834213AD/b6/cb6a4580/LazyAsyncResult.cs" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Lab5/RusherNetLib/Class1.cs" />
+        <option value="$PROJECT_DIR$/Lab5/RusherNetLib/Message.cs" />
+        <option value="$PROJECT_DIR$/Lab5/RusherNetLib/Core/IBuffer.cs" />
+        <option value="$PROJECT_DIR$/Lab5/RusherNetLib/Core/IClient.cs" />
+        <option value="$PROJECT_DIR$/Lab5/RusherNetLib/Core/IConnection.cs" />
+        <option value="$PROJECT_DIR$/Lab5/RusherNetLib/Core/IMessage.cs" />
+        <option value="$PROJECT_DIR$/Lab5/RusherNetLib/Core/IPeer.cs" />
+        <option value="$PROJECT_DIR$/Lab5/RusherNetLib/Core/IServer.cs" />
+        <option value="$PROJECT_DIR$/Lab5/RusherNetLib/NetClient/BaseClient.cs" />
+        <option value="$PROJECT_DIR$/Lab5/RusherNetLib/NetClient/Client.cs" />
+        <option value="$PROJECT_DIR$/Lab5/RusherNetLib/NetServer/BaseServer.cs" />
+        <option value="$PROJECT_DIR$/Lab5/RusherNetLib/NetServer/Connection.cs" />
+        <option value="$PROJECT_DIR$/Lab5/RusherNetLib/NetServer/Server.cs" />
+        <option value="$PROJECT_DIR$/Lab5/RusherClient/Program.cs" />
+        <option value="$PROJECT_DIR$/Lab5/RusherServer/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="97" />
+    <option name="y" value="28" />
+    <option name="width" value="1717" />
+    <option name="height" value="969" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ProgrammingTechnologies (9 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ProgrammingTechnologies (9 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Lab3" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ProgrammingTechnologies (9 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Lab5" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ProgrammingTechnologies (9 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Lab5" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="RusherClient" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ProgrammingTechnologies (9 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Lab5" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="RusherNetLib" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ProgrammingTechnologies (9 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Lab5" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="RusherNetLib" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Core" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ProgrammingTechnologies (9 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Lab5" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="RusherNetLib" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NetClient" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ProgrammingTechnologies (9 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Lab5" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="RusherNetLib" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NetServer" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ProgrammingTechnologies (9 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Lab5" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="RusherServer" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Lab5\RusherClient">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+    <configuration name="Lab5\RusherClient" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Lab5/RusherClient/bin/Debug/netcoreapp2.0/RusherClient.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab5/RusherClient" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab5/RusherClient/RusherClient.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+    </configuration>
+    <configuration name="Lab5\RusherServer" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Lab5/RusherServer/bin/Debug/netcoreapp2.0/RusherServer.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab5/RusherServer" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab5/RusherServer/RusherServer.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+      <item index="1" class="java.lang.String" itemvalue=".NET Project.Lab5\RusherServer" />
+      <item index="2" class="java.lang.String" itemvalue=".NET Project.Lab5\RusherClient" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue=".NET Project.Lab5\RusherClient" />
+        <item index="1" class="java.lang.String" itemvalue=".NET Project.Lab5\RusherServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a49cf272-684b-4cf5-8121-c847b68563ea" name="Default" comment="" />
+      <created>1520090901265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520090901265</updated>
+      <workItem from="1520090903855" duration="1316000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1316000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="97" y="28" width="1717" height="969" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935324" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32916668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935324" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="false" weight="0.32935324" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935324" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935324" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19394292" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905138" sideWeight="0.49791667" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3982103" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32946298" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905138" sideWeight="0.49791667" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32905138" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29416403" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Lab5/RusherClient/Program.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/Lab5/RusherClient/Program.cs" initialLine="11">
+            <startOffsets>
+              <startOffset value="170" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="448" />
+            </endOffsets>
+          </properties>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Lab5/RusherNetLib/NetClient/Client.cs</url>
+          <line>42</line>
+          <properties documentPath="$PROJECT_DIR$/Lab5/RusherNetLib/NetClient/Client.cs" initialLine="42">
+            <startOffsets>
+              <startOffset value="874" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="959" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Lab5/RusherNetLib/NetClient/Client.cs</url>
+          <line>86</line>
+          <properties documentPath="$PROJECT_DIR$/Lab5/RusherNetLib/NetClient/Client.cs" initialLine="86">
+            <startOffsets>
+              <startOffset value="1909" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="2013" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Lab5/RusherNetLib/NetClient/Client.cs</url>
+          <line>117</line>
+          <properties documentPath="$PROJECT_DIR$/Lab5/RusherNetLib/NetClient/Client.cs" initialLine="117">
+            <startOffsets>
+              <startOffset value="2664" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="2679" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Core/IBuffer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1520091089272" expanded="true" signature="27:84" ph="{...}" />
+            <marker date="1520091089272" expanded="true" signature="55:82" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Core/IConnection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1520091123402" expanded="true" signature="54:217" ph="{...}" />
+            <marker date="1520091123402" expanded="true" signature="94:215" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Core/IMessage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520091155444" expanded="true" signature="27:162" ph="{...}" />
+            <marker date="1520091155444" expanded="true" signature="66:160" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Core/IPeer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520091155460" expanded="true" signature="54:139" ph="{...}" />
+            <marker date="1520091155460" expanded="true" signature="80:137" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Core/IServer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520091155456" expanded="true" signature="27:361" ph="{...}" />
+            <marker date="1520091155456" expanded="true" signature="123:201" ph="{...}" />
+            <marker date="1520091155456" expanded="true" signature="236:359" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/NetClient/BaseClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520091155456" expanded="false" signature="6:50" ph="..." />
+            <marker date="1520091155456" expanded="true" signature="84:698" ph="{...}" />
+            <marker date="1520091155456" expanded="true" signature="130:696" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/NetServer/BaseServer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520091155448" expanded="false" signature="6:50" ph="..." />
+            <marker date="1520091155448" expanded="true" signature="84:486" ph="{...}" />
+            <marker date="1520091155448" expanded="true" signature="130:484" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/NetServer/Connection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520091155436" expanded="false" signature="6:64" ph="..." />
+            <marker date="1520091155436" expanded="true" signature="98:2168" ph="{...}" />
+            <marker date="1520091155436" expanded="true" signature="148:2166" ph="{...}" />
+            <marker date="1520091155436" expanded="true" signature="431:912" ph="{...}" />
+            <marker date="1520091155436" expanded="true" signature="664:908" ph="{...}" />
+            <marker date="1520091155436" expanded="true" signature="947:980" ph="{...}" />
+            <marker date="1520091155436" expanded="true" signature="1018:1161" ph="{...}" />
+            <marker date="1520091155436" expanded="true" signature="1189:1237" ph="{...}" />
+            <marker date="1520091155436" expanded="true" signature="1283:1572" ph="{...}" />
+            <marker date="1520091155436" expanded="true" signature="1352:1568" ph="{...}" />
+            <marker date="1520091155436" expanded="true" signature="1621:2163" ph="{...}" />
+            <marker date="1520091155436" expanded="true" signature="1708:2159" ph="{...}" />
+            <marker date="1520091155436" expanded="true" signature="1767:1932" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/NetServer/Server.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520091155452" expanded="false" signature="6:82" ph="..." />
+            <marker date="1520091155452" expanded="true" signature="116:2329" ph="{...}" />
+            <marker date="1520091155452" expanded="true" signature="159:2327" ph="{...}" />
+            <marker date="1520091155452" expanded="true" signature="433:552" ph="{...}" />
+            <marker date="1520091155452" expanded="true" signature="630:1102" ph="{...}" />
+            <marker date="1520091155452" expanded="true" signature="651:1081" ph="{...}" />
+            <marker date="1520091155452" expanded="true" signature="1158:1391" ph="{...}" />
+            <marker date="1520091155452" expanded="true" signature="1422:1531" ph="{...}" />
+            <marker date="1520091155452" expanded="true" signature="1618:2121" ph="{...}" />
+            <marker date="1520091155452" expanded="true" signature="1639:2117" ph="{...}" />
+            <marker date="1520091155452" expanded="true" signature="2169:2324" ph="{...}" />
+            <marker date="1520091155452" expanded="true" signature="2191:2320" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Message.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <marker date="1520091076247" expanded="false" signature="6:133" ph="..." />
+            <marker date="1520091076247" expanded="true" signature="157:1213" ph="{...}" />
+            <marker date="1520091076247" expanded="true" signature="192:1211" ph="{...}" />
+            <marker date="1520091076247" expanded="true" signature="361:449" ph="{...}" />
+            <marker date="1520091076247" expanded="true" signature="490:518" ph="{...}" />
+            <marker date="1520091076247" expanded="true" signature="560:770" ph="{...}" />
+            <marker date="1520091076247" expanded="true" signature="798:993" ph="{...}" />
+            <marker date="1520091076247" expanded="true" signature="1028:1208" ph="{...}" />
+            <marker date="1520091076247" expanded="true" signature="1039:1167" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab3/Lab3/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1519490313304" expanded="true" signature="6:41" ph="..." />
+            <marker date="1519490313304" expanded="true" signature="57:264" ph="{...}" />
+            <marker date="1519490313304" expanded="true" signature="81:262" ph="{...}" />
+            <marker date="1519490313304" expanded="true" signature="119:259" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherServer/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <marker date="1520091761057" expanded="true" signature="6:86" ph="..." />
+            <marker date="1520091761057" expanded="true" signature="108:1452" ph="{...}" />
+            <marker date="1520091761057" expanded="true" signature="125:1450" ph="{...}" />
+            <marker date="1520091761057" expanded="true" signature="162:610" ph="{...}" />
+            <marker date="1520091761057" expanded="true" signature="701:744" ph="{...}" />
+            <marker date="1520091761057" expanded="true" signature="840:884" ph="{...}" />
+            <marker date="1520091761057" expanded="true" signature="979:1021" ph="{...}" />
+            <marker date="1520091761057" expanded="true" signature="1117:1161" ph="{...}" />
+            <marker date="1520091761057" expanded="true" signature="1263:1311" ph="{...}" />
+            <marker date="1520091761057" expanded="true" signature="1404:1447" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/Core/IClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <marker date="1520091091884" expanded="true" signature="27:333" ph="{...}" />
+            <marker date="1520091091884" expanded="true" signature="123:180" ph="{...}" />
+            <marker date="1520091091884" expanded="true" signature="221:331" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E1B27A4-6035-47D9-A041-CEF439F84C41/0a/a65d0ce7/_ThreadPoolWaitCallback.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E1B27A4-6035-47D9-A041-CEF439F84C41/36/3f33da7f/ThreadPoolWorkQueue.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="154" column="10" lean-forward="false" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E1B27A4-6035-47D9-A041-CEF439F84C41/c0/d3b6ae28/QueueUserWorkItemCallbackDefaultContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E1B27A4-6035-47D9-A041-CEF439F84C41/95/d9a09bd4/ExecutionContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="99" column="6" lean-forward="false" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0238233-0FBB-446D-AF9B-F329834213AD/b6/cb6a4580/LazyAsyncResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="254" column="10" lean-forward="false" selection-start-line="254" selection-start-column="10" selection-end-line="254" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherClient/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <marker date="1520091755761" expanded="true" signature="6:86" ph="..." />
+            <marker date="1520091755761" expanded="true" signature="108:1062" ph="{...}" />
+            <marker date="1520091755761" expanded="true" signature="125:1060" ph="{...}" />
+            <marker date="1520091755761" expanded="true" signature="162:526" ph="{...}" />
+            <marker date="1520091755761" expanded="true" signature="613:658" ph="{...}" />
+            <marker date="1520091755761" expanded="true" signature="746:788" ph="{...}" />
+            <marker date="1520091755761" expanded="true" signature="876:920" ph="{...}" />
+            <marker date="1520091755761" expanded="true" signature="1009:1057" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab5/RusherNetLib/NetClient/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="86" column="29" lean-forward="true" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+          <folding>
+            <marker date="1520091155432" expanded="false" signature="6:64" ph="..." />
+            <marker date="1520091155432" expanded="true" signature="98:3297" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="141:3295" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="334:392" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="470:808" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="491:787" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="866:1038" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="1082:1115" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="1162:1305" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="1342:1412" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="1499:1852" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="1520:1848" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="1901:2273" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="2038:2269" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="2319:2607" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="2401:2603" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="2656:3292" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="2679:2767" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="2851:3288" ph="{...}" />
+            <marker date="1520091155432" expanded="true" signature="2910:3068" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

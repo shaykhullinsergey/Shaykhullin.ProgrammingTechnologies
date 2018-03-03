@@ -1,0 +1,47 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherServer/RusherServer.csproj",
+    "projectName": "RusherServer",
+    "projectPath": "/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherServer/RusherServer.csproj",
+    "outputPath": "/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherServer/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherNetLib/RusherNetLib.csproj": {
+            "projectPath": "/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherNetLib/RusherNetLib.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

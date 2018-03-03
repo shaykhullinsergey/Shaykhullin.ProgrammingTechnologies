@@ -1,0 +1,8 @@
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherNetLib/bin/Debug/netstandard2.0/RusherNetLib.deps.json
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherNetLib/bin/Debug/netstandard2.0/RusherNetLib.dll
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherNetLib/bin/Debug/netstandard2.0/RusherNetLib.pdb
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherNetLib/obj/Debug/netstandard2.0/RusherNetLib.csproj.CoreCompileInputs.cache
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherNetLib/obj/Debug/netstandard2.0/RusherNetLib.AssemblyInfoInputs.cache
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherNetLib/obj/Debug/netstandard2.0/RusherNetLib.AssemblyInfo.cs
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherNetLib/obj/Debug/netstandard2.0/RusherNetLib.dll
+/home/shaykhullin/Git/Shaykhullin.ProgrammingTechnologies/shaykhullin.programmingtechnologies/Labs/Lab5/RusherNetLib/obj/Debug/netstandard2.0/RusherNetLib.pdb
