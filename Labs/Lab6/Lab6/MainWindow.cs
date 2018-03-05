@@ -24,7 +24,7 @@ namespace Lab6
 				.ToString();
 
 		private void OnTask2(object sender, EventArgs e) =>
-			result.Text = new Regex(@"^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$")
+			result.Text = new Regex(@"^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z\-]{2,12}$")
 				.IsMatch(task2.Text)
 				.ToString();
 

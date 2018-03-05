@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 using RusherNetLib.Core;
 using RusherNetLib.NetServer;
 
@@ -9,10 +13,40 @@ namespace TestServer
 {
 	class Program
 	{
+		private static readonly string IpAddress = "127.0.0.1";
+		private static readonly int Port = 4000;
+
 		private static List<Person> persons = new List<Person>();
 
 		static void Main(string[] args)
 		{
+			var address = IPAddress.Parse("224.12.12.12");
+			var port = 4000;
+
+			Task.Run(() =>
+			{
+				var socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+				socket.Bind(new IPEndPoint(IPAddress.Any, port));
+
+				socket.SetSocketOption(SocketOptionLevel.IP, SocketOptionName.AddMembership,
+					new MulticastOption(address, IPAddress.Any));
+
+				var multicastEndPoint = new IPEndPoint(address, port) as EndPoint;
+
+				while (true)
+				{
+					var data = new byte[100];
+					socket.ReceiveFrom(data, ref multicastEndPoint);
+					var str = Encoding.ASCII.GetString(data).Trim('\0');
+					var separator = str.IndexOf(":");
+					var remoteAddress = str.Substring(0, separator);
+					var remotePort = int.Parse(str.Substring(separator + 1));
+
+					socket.SendTo(Encoding.ASCII.GetBytes($"{IpAddress}:{Port}"),
+						new IPEndPoint(IPAddress.Parse(remoteAddress), remotePort));
+				}
+			});
+
 			var server = new Server()
 					.AddHandler(ServerType.Started, OnStarted)
 					.AddHandler(ServerType.Accepted, OnAccepted)
@@ -20,7 +54,7 @@ namespace TestServer
 					.AddHandler(ServerType.Received, OnReceived)
 					.AddHandler(ServerType.Disconnected, OnDisconnected)
 					.AddHandler(ServerType.Stopped, OnStopped)
-					.Start("127.0.0.12", 4000);
+					.Start(IpAddress, Port);
 
 			Console.ReadLine();
 			server.Stop();
@@ -34,7 +68,6 @@ namespace TestServer
 		//Когда сервер принял клиент
 		private static void OnAccepted(IConnection conn, IMessage msg)
 		{
-
 			var p = new Person
 			{
 				Name = Guid.NewGuid().ToString(),

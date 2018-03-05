@@ -7,22 +7,53 @@ using System.Collections.Generic;
 
 using RusherNetLib.Core;
 using RusherNetLib.NetClient;
+using System.Text;
+using System.Net;
+using System.Net.Sockets;
 
 namespace TestClient
 {
 	public partial class MainWindow : Form
 	{
+		private readonly IPAddress multicastAddress = IPAddress.Parse("224.12.12.12");
+		private readonly int multicastPort = 4000;
+
+		private readonly IPAddress localAddress = IPAddress.Parse("127.0.0.1");
+		private readonly int localPort = 4001;
+
+		private readonly IPAddress remoteAddress;
+		private readonly int remotePort;
+
 		private readonly IClient client;
 
 		public MainWindow()
 		{
 			InitializeComponent();
 
+			using (var socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp))
+			{
+				socket.Bind(new IPEndPoint(localAddress, localPort));
+
+				socket.SetSocketOption(SocketOptionLevel.IP, SocketOptionName.AddMembership, 
+					new MulticastOption(multicastAddress, localAddress));
+
+				var multicastEndPoint = new IPEndPoint(multicastAddress, multicastPort) as EndPoint;
+				socket.SendTo(Encoding.ASCII.GetBytes($"{localAddress}:{localPort}"), multicastEndPoint);
+
+				var data = new byte[100];
+				socket.ReceiveFrom(data, ref multicastEndPoint);
+
+				var str = Encoding.ASCII.GetString(data).Trim('\0');
+				var separator = str.IndexOf(":");
+				remoteAddress = IPAddress.Parse(str.Substring(0, separator));
+				remotePort = int.Parse(str.Substring(separator + 1));
+			}
+
 			client = new Client()
 					.AddHandler(ClientType.Connected, OnConnected)
 					.AddHandler(ClientType.Received, OnReceived)
 					.AddHandler(ClientType.Disconnected, OnDisconnected)
-					.Connect("127.0.0.12", 4000);
+					.Connect(remoteAddress.ToString(), remotePort);
 		}
 
 		private void OnDisconnected(IConnection conn, IMessage msg)
@@ -55,7 +86,7 @@ namespace TestClient
 					messages.AppendText($"{msg["Author"]}: {msg["Text"]}\n");
 				});
 			}
-			else if(msg["Type"] == "PrivateSend")
+			else if (msg["Type"] == "PrivateSend")
 			{
 				loop.Enqueue(() =>
 				{
