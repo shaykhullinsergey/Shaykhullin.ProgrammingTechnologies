@@ -13,39 +13,54 @@ namespace TestServer
 {
 	class Program
 	{
-		private static readonly string IpAddress = "127.0.0.1";
-		private static readonly int Port = 4000;
+		private static string LocalAddress = Dns.GetHostEntry(Dns.GetHostName()).AddressList
+			.Last(x => x.AddressFamily == AddressFamily.InterNetwork)
+			.ToString();
+
+		private static readonly int LocalPortPort = 4000;
 
 		private static List<Person> persons = new List<Person>();
 
 		static void Main(string[] args)
 		{
-			var address = IPAddress.Parse("224.12.12.12");
-			var port = 4000;
+			Console.WriteLine(LocalAddress);
 
 			Task.Run(() =>
 			{
+				var multicastAddress = IPAddress.Parse("224.12.12.12");
+				const int milticastPort = 4000;
+
 				var socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
-				socket.Bind(new IPEndPoint(IPAddress.Any, port));
+				socket.Bind(new IPEndPoint(IPAddress.Any, milticastPort));
+				socket.MulticastLoopback = true;
 
 				socket.SetSocketOption(SocketOptionLevel.IP, SocketOptionName.AddMembership,
-					new MulticastOption(address, IPAddress.Any));
+					new MulticastOption(multicastAddress, IPAddress.Any));
 
-				var multicastEndPoint = new IPEndPoint(address, port) as EndPoint;
+				var multicastEndPoint = new IPEndPoint(multicastAddress, milticastPort) as EndPoint;
 
 				while (true)
 				{
 					var data = new byte[100];
+					Console.WriteLine("START");
 					socket.ReceiveFrom(data, ref multicastEndPoint);
+					Console.WriteLine("END");
+
 					var str = Encoding.ASCII.GetString(data).Trim('\0');
-					var separator = str.IndexOf(":");
+
+					Console.WriteLine(str);
+					var separator = str.IndexOf(":", StringComparison.Ordinal);
 					var remoteAddress = str.Substring(0, separator);
 					var remotePort = int.Parse(str.Substring(separator + 1));
 
-					socket.SendTo(Encoding.ASCII.GetBytes($"{IpAddress}:{Port}"),
+					socket.SendTo(Encoding.ASCII.GetBytes(LocalAddress + ":" + LocalPortPort),
 						new IPEndPoint(IPAddress.Parse(remoteAddress), remotePort));
+
+					Thread.Sleep(1000);
 				}
 			});
+
+			Thread.Sleep(1000);
 
 			var server = new Server()
 					.AddHandler(ServerType.Started, OnStarted)
@@ -54,7 +69,7 @@ namespace TestServer
 					.AddHandler(ServerType.Received, OnReceived)
 					.AddHandler(ServerType.Disconnected, OnDisconnected)
 					.AddHandler(ServerType.Stopped, OnStopped)
-					.Start(IpAddress, Port);
+					.Start(LocalAddress, LocalPortPort);
 
 			Console.ReadLine();
 			server.Stop();
@@ -81,7 +96,7 @@ namespace TestServer
 			name["Name"] = p.Name;
 			conn.Send(name);
 
-			Thread.Sleep(100);
+			Thread.Sleep(1000);
 
 			foreach (var person in persons)
 			{
@@ -90,7 +105,7 @@ namespace TestServer
 				message["List"] = string.Join(",", persons.Select(x => x.Name).ToArray());
 				person.Connection.Send(message);
 
-				Thread.Sleep(100);
+				Thread.Sleep(1000);
 
 				message["Type"] = "Send";
 				message["Author"] = "SERVER";
@@ -142,7 +157,7 @@ namespace TestServer
 			persons.Remove(p);
 			Console.WriteLine($"OnDisconnected: {p.Name}");
 
-			Thread.Sleep(100);
+			Thread.Sleep(1000);
 			foreach (var person in persons)
 			{
 				var message = person.Connection.CreateMessage();
@@ -150,7 +165,7 @@ namespace TestServer
 				message["List"] = string.Join(",", persons.Select(x => x.Name).ToArray());
 				person.Connection.Send(message);
 
-				Thread.Sleep(100);
+				Thread.Sleep(1000);
 
 				message["Type"] = "Send";
 				message["Author"] = "SERVER";

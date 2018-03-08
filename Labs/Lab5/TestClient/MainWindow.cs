@@ -10,6 +10,7 @@ using RusherNetLib.NetClient;
 using System.Text;
 using System.Net;
 using System.Net.Sockets;
+using System.Threading;
 
 namespace TestClient
 {
@@ -18,47 +19,23 @@ namespace TestClient
 		private readonly IPAddress multicastAddress = IPAddress.Parse("224.12.12.12");
 		private readonly int multicastPort = 4000;
 
-		private readonly IPAddress localAddress = IPAddress.Parse("127.0.0.1");
+		private readonly IPAddress localAddress = Dns.GetHostEntry(Dns.GetHostName()).AddressList
+			.Last(x => x.AddressFamily == AddressFamily.InterNetwork);
 		private readonly int localPort = 4001;
 
-		private readonly IPAddress remoteAddress;
-		private readonly int remotePort;
+		private IPAddress remoteAddress;
+		private int remotePort;
 
-		private readonly IClient client;
+		private IClient client;
 
 		public MainWindow()
 		{
 			InitializeComponent();
-
-			using (var socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp))
-			{
-				socket.Bind(new IPEndPoint(localAddress, localPort));
-
-				socket.SetSocketOption(SocketOptionLevel.IP, SocketOptionName.AddMembership, 
-					new MulticastOption(multicastAddress, localAddress));
-
-				var multicastEndPoint = new IPEndPoint(multicastAddress, multicastPort) as EndPoint;
-				socket.SendTo(Encoding.ASCII.GetBytes($"{localAddress}:{localPort}"), multicastEndPoint);
-
-				var data = new byte[100];
-				socket.ReceiveFrom(data, ref multicastEndPoint);
-
-				var str = Encoding.ASCII.GetString(data).Trim('\0');
-				var separator = str.IndexOf(":");
-				remoteAddress = IPAddress.Parse(str.Substring(0, separator));
-				remotePort = int.Parse(str.Substring(separator + 1));
-			}
-
-			client = new Client()
-					.AddHandler(ClientType.Connected, OnConnected)
-					.AddHandler(ClientType.Received, OnReceived)
-					.AddHandler(ClientType.Disconnected, OnDisconnected)
-					.Connect(remoteAddress.ToString(), remotePort);
 		}
 
 		private void OnDisconnected(IConnection conn, IMessage msg)
 		{
-			MessageBox.Show("Connection lost!");
+			MessageBox.Show("Connection lost! " + conn.SocketError);
 			Application.Exit();
 		}
 
@@ -122,9 +99,36 @@ namespace TestClient
 			listBox1.SelectedItems.Clear();
 		}
 
-		private Queue<Action> loop = new Queue<Action>();
+		private readonly Queue<Action> loop = new Queue<Action>();
 		private async void MainWindow_Load(object sender, EventArgs e)
 		{
+			using (var socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp))
+			{
+				socket.Bind(new IPEndPoint(localAddress, localPort));
+				socket.SetSocketOption(SocketOptionLevel.IP, SocketOptionName.AddMembership,
+					new MulticastOption(multicastAddress, localAddress));
+				socket.MulticastLoopback = true;
+
+				var multicastEndPoint = new IPEndPoint(multicastAddress, multicastPort) as EndPoint;
+				socket.SendTo(Encoding.ASCII.GetBytes(localAddress + ":" + localPort), multicastEndPoint);
+
+				var data = new byte[100];
+				socket.ReceiveFrom(data, ref multicastEndPoint);
+
+				var str = Encoding.ASCII.GetString(data).Trim('\0');
+				var separator = str.IndexOf(":");
+				remoteAddress = IPAddress.Parse(str.Substring(0, separator));
+				remotePort = int.Parse(str.Substring(separator + 1));
+			}
+
+			client = new Client()
+					.AddHandler(ClientType.Connected, OnConnected)
+					.AddHandler(ClientType.Received, OnReceived)
+					.AddHandler(ClientType.Disconnected, OnDisconnected)
+					.Connect(remoteAddress.ToString(), remotePort);
+
+			Thread.Sleep(100);
+
 			while (true)
 			{
 				while (loop.Any())
